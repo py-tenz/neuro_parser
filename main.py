@@ -1,5 +1,5 @@
 from youtube_parser import get_all_yt_video_comments, get_all_video_ids, get_comments_as_list, post_vids
-from llama import get_responce_llama, get_result_stats
+from llama import get_responce_llama, get_result_stats, generate_response
 import time
 import matplotlib.pyplot as plt
 
@@ -7,6 +7,7 @@ positive_list = ["Yes", "yes", "positive"]
 negative_list = ["No", "no", "negative"]
 
 def main():
+    print("Programm started")
     post_vids("#programming", "#python")
     time.sleep(3)
     get_all_yt_video_comments(get_all_video_ids())
@@ -34,9 +35,10 @@ def main():
     plt.axis("equal")
     plt.show()
 
-
+def main_test(prompt):
+    print(generate_response(prompt))
 
 
 
 if __name__ == '__main__':
-    main()
+    main_test("Type a number from 1 to 10")
