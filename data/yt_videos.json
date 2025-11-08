@@ -1,0 +1,1712 @@
+{
+  "kind": "youtube#searchListResponse",
+  "etag": "FOMXoxetN_c-bRSQILsSvkDvFxs",
+  "nextPageToken": "CDIQAA",
+  "regionCode": "RU",
+  "pageInfo": {
+    "totalResults": 1000000,
+    "resultsPerPage": 50
+  },
+  "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "SBo486Lh59WKm6qaoT64TJ9Exf4",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Mf9GCn_LsUI"
+      },
+      "snippet": {
+        "publishedAt": "2024-10-01T02:28:38Z",
+        "channelId": "UCxTlZrcW5kbq86ClNxzf5Tw",
+        "title": "Junior vs senior python developer 🐍 | #python #coding #programming #shorts  @Codingknowledge-yt",
+        "description": "Junior vs senior python developer | #python #coding #javascript #programming @Codingknowledge-yt @Codingknowledge-yt ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Mf9GCn_LsUI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Mf9GCn_LsUI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Mf9GCn_LsUI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Coding knowledge ",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-10-01T02:28:38Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "NofJJjBkyKwJQayNlWE_FvsByjg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "YzS488JbEgQ"
+      },
+      "snippet": {
+        "publishedAt": "2023-01-02T16:24:05Z",
+        "channelId": "UCR_8xo8EEX2uFrJpx2DPyug",
+        "title": "Python Virus ?! #shorts",
+        "description": "How to make a virus with python turtle. Its a pun! Looks like a virus This video is a short python tutorial, and it is part of the python ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/YzS488JbEgQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/YzS488JbEgQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/YzS488JbEgQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Securiosity",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-01-02T16:24:05Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "CesA-LXFUO8LwnLkqHpHOI6Mk5Q",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "fXxUYb0s-pc"
+      },
+      "snippet": {
+        "publishedAt": "2022-04-07T05:03:39Z",
+        "channelId": "UCM9Vnpq-v_-i9zS55-mzePg",
+        "title": "Impress your crush using Python Code ❤️",
+        "description": "Code with explanation is here: https://aitoolz.ai/impress-your-crush-using-python-code/",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/fXxUYb0s-pc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/fXxUYb0s-pc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/fXxUYb0s-pc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "AI Toolz",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-04-07T05:03:39Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "-CkLLKHP-ye-AaLOvsZvL-gA6X8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "St9pE2bv0zQ"
+      },
+      "snippet": {
+        "publishedAt": "2022-12-13T11:30:08Z",
+        "channelId": "UCRm3hfq-44OzMg7cwhUGvjQ",
+        "title": "A funny visualization of C++ vs Python | Funny Shorts | Meme",
+        "description": "A funny visualization of C++ vs Python | Funny Shorts | Meme #C++ #python #softwaredeveloper Watch our related videos: ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/St9pE2bv0zQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/St9pE2bv0zQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/St9pE2bv0zQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Styx Show by Dean Armada",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-12-13T11:30:08Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "LJqc8BGDeRNBP6jlBkm2h3kr_0U",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "k7LSFYyBZUs"
+      },
+      "snippet": {
+        "publishedAt": "2022-09-16T17:29:40Z",
+        "channelId": "UClLXKYEEM8OBBx85DOa6-cg",
+        "title": "Coding for 1 Month Versus 1 Year #shorts #coding",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/k7LSFYyBZUs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/k7LSFYyBZUs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/k7LSFYyBZUs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Devslopes",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-09-16T17:29:40Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "KMygGDcD3pwxzV2OQoonRWUQCTo",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "BVyxC68kHdc"
+      },
+      "snippet": {
+        "publishedAt": "2022-10-15T23:38:57Z",
+        "channelId": "UCfwSZMnpzluV01vjf8ujSwQ",
+        "title": "How to write a for loop in python #shorts #programming  #pythontutorial",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/BVyxC68kHdc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/BVyxC68kHdc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/BVyxC68kHdc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Code with Vincent",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-10-15T23:38:57Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "OU19OxZjdLsRZ4rVIA1ZcSPhILw",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "eUSViaQJIzw"
+      },
+      "snippet": {
+        "publishedAt": "2022-07-01T04:20:52Z",
+        "channelId": "UCuQjAtz3UyPpKmbR1p8NCLw",
+        "title": "Python program to add two numbers #shorts #coding #programming",
+        "description": "Source Code: https://bit.ly/AddTwoNumbersPython Subscribe: https://rebrand.ly/FreeSubscription How to Run Python in ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/eUSViaQJIzw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/eUSViaQJIzw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/eUSViaQJIzw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Tech Decode Tutorials",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-07-01T04:20:52Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "CpDBlj8HLnePoZearhRaaR_D_EY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "W-8j4MrsX2s"
+      },
+      "snippet": {
+        "publishedAt": "2023-05-24T13:15:02Z",
+        "channelId": "UCQNqdaEMfiiNxTiqoyk1dtA",
+        "title": "Amazing Flower Design using Python turtle 🐢 #python #coding #funny #viral #trending #design",
+        "description": "Python Projects for Begineers Python Turtle Programming with Turtle Turtle Graphics Drawing with Python Turtle Python Turtle ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/W-8j4MrsX2s/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/W-8j4MrsX2s/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/W-8j4MrsX2s/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "DEV19",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-05-24T13:15:02Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Si0NM2RZifEV8q5foMaf-W8lPdU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "U62GzZojAdI"
+      },
+      "snippet": {
+        "publishedAt": "2025-09-28T07:52:41Z",
+        "channelId": "UCKayVjoZXA3fgH6xnMRpqPQ",
+        "title": "Multiplication Operator #python #operators #pythonoperators #coding #programming #ai #viral #shorts",
+        "description": "Python  !! Python Strings!! 24thProgram Multiplication Operator using python Program. \u200d    \u200d  🖥️ Channel Name - Learn ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/U62GzZojAdI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/U62GzZojAdI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/U62GzZojAdI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Learn CS Prgramming",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-09-28T07:52:41Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "LIk6mOjRbrAIhz0hlBZSRl9zGpA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "RGMeRW3tB0w"
+      },
+      "snippet": {
+        "publishedAt": "2022-05-26T16:16:58Z",
+        "channelId": "UC4MZ7zUHb5eAxU75Dc_nqdQ",
+        "title": "Coding a game in Python #Shorts #Python",
+        "description": "Subscribe for more videos using this link https://www.youtube.com/tiffintech?sub_confirmation=1 Business inquiries: ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/RGMeRW3tB0w/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/RGMeRW3tB0w/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/RGMeRW3tB0w/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Tiff In Tech",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-05-26T16:16:58Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "IFm8aL6HDjqAzjzKTqc9DsQaWjM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "yymyLXPbP1Y"
+      },
+      "snippet": {
+        "publishedAt": "2024-07-20T14:48:32Z",
+        "channelId": "UCrqAddL1VDf4e5V1AojoOYQ",
+        "title": "How to become a Senior developer.. ♥️ 😂 #programming #javascript #python #coding #developer #coder .",
+        "description": "How to become a Senior developer.. ♥️ #programming #javascript #python #coding #developer #coder .#coding ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/yymyLXPbP1Y/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/yymyLXPbP1Y/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/yymyLXPbP1Y/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "DIVINE CLASSES AN INSTITUTION Of EDUCATION.",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-07-20T14:48:32Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "uCSks25krKiHvEOukchNSDL9690",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "h_KYRmYt2Z0"
+      },
+      "snippet": {
+        "publishedAt": "2022-05-22T12:23:40Z",
+        "channelId": "UChdtCH0Hl_NpO_EJVTkbjFA",
+        "title": "While loop in Python #shorts #python #coding",
+        "description": "coding for printing counting using for loop in python. #shorts #python #computer #programming.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/h_KYRmYt2Z0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/h_KYRmYt2Z0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/h_KYRmYt2Z0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "SyntaxD",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-05-22T12:23:40Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Q-XfUDfJSAo-UwSMBslQjoKmaUU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "XKYMGepj7Y8"
+      },
+      "snippet": {
+        "publishedAt": "2025-01-12T01:21:02Z",
+        "channelId": "UCjEbKA-S7NjfWs4A5ed1hqw",
+        "title": "Python full course | javascript full course | code with harry | #coding #shorts #shortsvideo",
+        "description": "Stay updated with the latest in programming and technology! In today's video, we'll dive into [Topic of the Short, e.g., \"Python AI ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/XKYMGepj7Y8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/XKYMGepj7Y8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/XKYMGepj7Y8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Spartan Plays",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-01-12T01:21:02Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "d7MLnQzS413WvQaZuj9ldzeMt70",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "MGirwktL4b8"
+      },
+      "snippet": {
+        "publishedAt": "2023-09-29T14:37:18Z",
+        "channelId": "UCopKiYZmbrPdOlfFZSUC-og",
+        "title": "Python Code like hacking #shorts #python #hacking #programming",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/MGirwktL4b8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/MGirwktL4b8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/MGirwktL4b8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Magical Tech",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-09-29T14:37:18Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "_tGtI2lwvof-d82AaiKKlSJ08qE",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "T4VodZe3ISQ"
+      },
+      "snippet": {
+        "publishedAt": "2022-08-04T18:40:00Z",
+        "channelId": "UCvD5vcbsjWNv5iv1EGFNBjA",
+        "title": "Wait for Python&#39;s Turn 😂, Coding Meme, Programming Meme, Python Memes @VastCoding",
+        "description": "Funny Programming Meme Video, Coding Memes, Python Memes, Java Memes, C Memes #shorts #python #coding ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/T4VodZe3ISQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/T4VodZe3ISQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/T4VodZe3ISQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Vast Coding",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-08-04T18:40:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Hc_h5oLWL49dDi2Q8W7xVeBKB8c",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "NhAIHHDzEmM"
+      },
+      "snippet": {
+        "publishedAt": "2023-02-12T01:30:08Z",
+        "channelId": "UCqHg-GUMK8-vtH42n7ncmtw",
+        "title": "❤ Make a Heart and print &#39;I LOVE YOU&#39; using Python Turtle | #shorts | #turtle | #python | #heart",
+        "description": "Hello friends, Welcome to Coding with Animation. Make a Heart and print 'I LOVE YOU' using Python Turtle, This is executed on ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/NhAIHHDzEmM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/NhAIHHDzEmM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/NhAIHHDzEmM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Mr Sky Coding",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-02-12T01:30:08Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Kl1hX2qf5VauE-vxRoT5w9ZiJjw",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "YKEhkUvq5WU"
+      },
+      "snippet": {
+        "publishedAt": "2023-01-08T14:26:35Z",
+        "channelId": "UCbiVDsfAyfhOFEhDwHoFy8A",
+        "title": "Power of python with Elon musk 🔥 #shorts #viral #programming",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/YKEhkUvq5WU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/YKEhkUvq5WU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/YKEhkUvq5WU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Programming Life",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-01-08T14:26:35Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "gq_IIM8fYoC8hpfpEkhpLsWkmz0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "EiHzQLr-arg"
+      },
+      "snippet": {
+        "publishedAt": "2022-08-02T12:25:56Z",
+        "channelId": "UC0pllSY80gpueNH0h-rYN1Q",
+        "title": "Python project for beginners with gui using Python Tkinter | Python programming #shorts #python",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/EiHzQLr-arg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/EiHzQLr-arg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/EiHzQLr-arg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Intrannp",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-08-02T12:25:56Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "fhdQY3Txv_OZEvFWJAS0oZwZHhQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "P5An-rTtM_k"
+      },
+      "snippet": {
+        "publishedAt": "2023-05-14T12:15:01Z",
+        "channelId": "UCQNqdaEMfiiNxTiqoyk1dtA",
+        "title": "Amazing Rotating Python Graphics Design using Turtle 🐢 #python #pythonshorts #coding #viral #design",
+        "description": "Python Projects for Begineers Python Turtle Programming with Turtle Turtle Graphics Drawing with Python Turtle Python Turtle ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/P5An-rTtM_k/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/P5An-rTtM_k/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/P5An-rTtM_k/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "DEV19",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-05-14T12:15:01Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "BqNERjeCo98XevCcgPWLTbKtPf8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "eaMDDseIL7E"
+      },
+      "snippet": {
+        "publishedAt": "2022-08-24T16:52:44Z",
+        "channelId": "UCqz1Z9I6GY0q0xvUnLqGHOg",
+        "title": "How to create graphics using Python turtle 🐍🐢 #coding",
+        "description": "This tutorial will create colorful graphics using the python turtle library. Let's have some fun by making some excellent graphics in ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/eaMDDseIL7E/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/eaMDDseIL7E/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/eaMDDseIL7E/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Fun with Python",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-08-24T16:52:44Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "PUL10z9cEAmJEX3A7BJbZwPzdko",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "nluUYtejoIE"
+      },
+      "snippet": {
+        "publishedAt": "2024-06-21T07:55:33Z",
+        "channelId": "UCAy1PN6jrZXrGFg79WP_91A",
+        "title": "Python Basics: Your FIRST Program in Under a Minute! 🚀",
+        "description": "In this quick tutorial, I'll show you how to write your very first line of Python code: the classic \"Hello, World!\" ✨ Whether you're a ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/nluUYtejoIE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/nluUYtejoIE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/nluUYtejoIE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "The Programmers Realm",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-06-21T07:55:33Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "iy9kle-hqBdHt7ob25dsyUQHxcM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "l6Vsu5SX_Wc"
+      },
+      "snippet": {
+        "publishedAt": "2022-02-11T14:20:50Z",
+        "channelId": "UChESOpB8YacQxDl5CRuBVwg",
+        "title": "how to create arrays using NumPy in Python #shorts",
+        "description": "how to create arrays using NumPy in Python.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/l6Vsu5SX_Wc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/l6Vsu5SX_Wc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/l6Vsu5SX_Wc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "The Bro Kode",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-02-11T14:20:50Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "DiOqgatfZcsUl_iPnWT0I5vDd5E",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "I6JP706F0rU"
+      },
+      "snippet": {
+        "publishedAt": "2023-09-06T08:46:05Z",
+        "channelId": "UC_e9RMSUbG8rj4VubtQ2PLg",
+        "title": "Calculator in one line 📈😱- Python #coding",
+        "description": "Disclaimer: Any script or a code snippet shown in the video is harmless and fake, and is not intended to cause any harm to ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/I6JP706F0rU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/I6JP706F0rU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/I6JP706F0rU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Quiet Coder",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-09-06T08:46:05Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "8noFV72TVvcjXARa3AMOjcO4sXk",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "4gYZLNcSpQw"
+      },
+      "snippet": {
+        "publishedAt": "2024-02-19T03:19:34Z",
+        "channelId": "UCX3aygUDlBQ8b-ojSQH6fkQ",
+        "title": "Yes Coding is Hard BUT #codewithme #motivation #codingmotivation #fullstackdeveloper #programmer #c",
+        "description": "Subscribe for daily coding motivation It's true coding is not an easy major at all! But what is true is the the pay off, you may not ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/4gYZLNcSpQw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/4gYZLNcSpQw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/4gYZLNcSpQw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Jameel | Full Stack Developer",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-02-19T03:19:34Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "1CRg4L16WMenCHSN9315GR8MNmk",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "J8CwlpEwHoA"
+      },
+      "snippet": {
+        "publishedAt": "2022-05-11T17:00:09Z",
+        "channelId": "UCeVMnSShP_Iviwkknt83cww",
+        "title": "How to confuse a Python Developer?",
+        "description": "Python Udemy Course: https://goharry.in/python Get this course at 90% Discount if you use this link#shorts In this video, we will ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/J8CwlpEwHoA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/J8CwlpEwHoA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/J8CwlpEwHoA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "CodeWithHarry",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-05-11T17:00:09Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "HxBM-eeR_HA1ddEm6VV8Ze0ud4w",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "nC8sDcYOEk4"
+      },
+      "snippet": {
+        "publishedAt": "2022-01-12T18:49:24Z",
+        "channelId": "UCv1PC0yHe8EDHj148nUfAYw",
+        "title": "Python Beginners Topics 💯   | #shorts #python #knowprogram",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/nC8sDcYOEk4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/nC8sDcYOEk4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/nC8sDcYOEk4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Know Program",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-01-12T18:49:24Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Pd3KIw5E8DkmtcjDrU9UblduKSM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "VCMI7BEZ9FA"
+      },
+      "snippet": {
+        "publishedAt": "2024-09-12T14:30:33Z",
+        "channelId": "UCCktnahuRFYIBtNnKT5IYyg",
+        "title": "Python or Java? | Which Programming Language is THE BEST in 2024 | #Coding #Python #Java #Shorts",
+        "description": "In this #shorts video, we hit the office floor and ask real programmers whether they prefer Python or Java. Which language do ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/VCMI7BEZ9FA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/VCMI7BEZ9FA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/VCMI7BEZ9FA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Intellipaat",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-09-12T14:30:33Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "F9qxuu43cdBFmD8ptTi8dAmUSxk",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Fm3iH1PPgMw"
+      },
+      "snippet": {
+        "publishedAt": "2024-05-21T03:31:26Z",
+        "channelId": "UCjhdBsNZvpbgPlnwNMHEc1w",
+        "title": "Top 8 fastest programing languages in 2024.",
+        "description": "Top 8 fastest programing languages in 2024. #language #programinglanguage #programming#codeing #developer #coder #viral ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Fm3iH1PPgMw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Fm3iH1PPgMw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Fm3iH1PPgMw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "CODING-KNOWLEDGE ",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-05-21T03:31:26Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "P87K0b5fYy26Ig1LpGL-EhzX8Yo",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "hRUJ41rdp4M"
+      },
+      "snippet": {
+        "publishedAt": "2023-06-18T04:14:29Z",
+        "channelId": "UClLXKYEEM8OBBx85DOa6-cg",
+        "title": "1 Year of Coding #programming #comedy #coding",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/hRUJ41rdp4M/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/hRUJ41rdp4M/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/hRUJ41rdp4M/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Devslopes",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-06-18T04:14:29Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "R84TP_LcJhIdvNeLrUFJRzxsNIE",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Ix5cKThAa3E"
+      },
+      "snippet": {
+        "publishedAt": "2025-01-30T14:41:56Z",
+        "channelId": "UCMUuCs6Y1WzDpAKg_2W-3yA",
+        "title": "Python Coding Basics: Get Started with VSCode",
+        "description": "Python Coding Basics: Get Started with VSCode @monuinstitute Python is one of the most demanded programming languages ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Ix5cKThAa3E/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Ix5cKThAa3E/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Ix5cKThAa3E/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Monu institute ",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-01-30T14:41:56Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "kDqibbaeqN7cifYk1l6GDcgp93U",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "jDyAqS-57C0"
+      },
+      "snippet": {
+        "publishedAt": "2022-06-11T04:30:18Z",
+        "channelId": "UCuQjAtz3UyPpKmbR1p8NCLw",
+        "title": "Draw Spider Man Face using 3 line of python code #shorts #coding #programming",
+        "description": "Source Code: https://bit.ly/Spider_Man_Python Subscribe: https://rebrand.ly/FreeSubscription How to Run Python in Visual ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/jDyAqS-57C0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/jDyAqS-57C0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/jDyAqS-57C0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Tech Decode Tutorials",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-06-11T04:30:18Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "6uZeDHamsrqQ4FlOV4VXLmkLzyc",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "qn8tEMC04rQ"
+      },
+      "snippet": {
+        "publishedAt": "2023-04-05T12:59:21Z",
+        "channelId": "UCAqx_JOJFun1eAmGUnzslBQ",
+        "title": "Software Engineer Status | Softwere Developer Status | #shorts | #developer | #coding | #programming",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/qn8tEMC04rQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/qn8tEMC04rQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/qn8tEMC04rQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "ShaniTeach  · 18k views · 5 minutes ago\n\n\n\n\n\n\n\n\n\n\n",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-04-05T12:59:21Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "RUCiR2FW8k8TsPpiqQmmy3ycv5w",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "XTe5W6gYoEo"
+      },
+      "snippet": {
+        "publishedAt": "2025-05-05T14:54:58Z",
+        "channelId": "UCJfCYYF5b1wqfTCn6u34Q4Q",
+        "title": "Replace Your Study With This YouTube Channels #shorts #coding #java #dsa #python",
+        "description": "Replace Your Study With This YouTube Channels Your Queries :- Best youtube channels for learn programming Learn ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/XTe5W6gYoEo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/XTe5W6gYoEo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/XTe5W6gYoEo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "WebKnower",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-05-05T14:54:58Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "tnfk6BrtLyGOr334Obf0YUHX3OQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Xa9qIp6JCMI"
+      },
+      "snippet": {
+        "publishedAt": "2022-08-19T15:30:06Z",
+        "channelId": "UCKQdc0-Targ4nDIAUrlfKiA",
+        "title": "String Data Type - Python for Beginners - Lesson 2 #python #shorts #data #programming  #coding",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Xa9qIp6JCMI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Xa9qIp6JCMI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Xa9qIp6JCMI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Python Simplified",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-08-19T15:30:06Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "VN2K8J0n-bANhfOHDGLD0R-GmpU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "390Pc6_fdeg"
+      },
+      "snippet": {
+        "publishedAt": "2024-12-19T00:40:54Z",
+        "channelId": "UC8Wt7vynFfRnoVtpNpESWjw",
+        "title": "It’s literally perfect 🫠 #coding #java #programmer #computer #python",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/390Pc6_fdeg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/390Pc6_fdeg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/390Pc6_fdeg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Desk Mate",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-12-19T00:40:54Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "hbolF_y-N32iQ1Y1RXr7cjnO63A",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "soS0-OaFmls"
+      },
+      "snippet": {
+        "publishedAt": "2024-08-24T13:00:55Z",
+        "channelId": "UCCktnahuRFYIBtNnKT5IYyg",
+        "title": "Best Programming Language For AI in 2024 | Intellipaat #Shorts #AI #Python",
+        "description": "Curious about the Best Programming Language for AI in 2024? In this #Shorts video, we explore the top language you should ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/soS0-OaFmls/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/soS0-OaFmls/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/soS0-OaFmls/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Intellipaat",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-08-24T13:00:55Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ZlWIyUe9UI8eeFY-wxW_r2JGiFM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "cPmknFpOl-Y"
+      },
+      "snippet": {
+        "publishedAt": "2023-02-24T14:51:01Z",
+        "channelId": "UC5tqr4MtUEQ8Lp8pHnAjQSw",
+        "title": "Think you know C programming? Test your knowledge with this MCQ!",
+        "description": "shorts #clanguage #cprogramming #coding #programming Answer: C) 15.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/cPmknFpOl-Y/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/cPmknFpOl-Y/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/cPmknFpOl-Y/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Coding Insider",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-02-24T14:51:01Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "GVKGw_2ZUOdLPRsXiSy84wIUuWg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "o4F3G5g5H-Y"
+      },
+      "snippet": {
+        "publishedAt": "2024-06-04T14:05:38Z",
+        "channelId": "UCsvqVGtbbyHaMoevxPAq9Fg",
+        "title": "How Much A Python Developer Earn ? | Python Developer Salary In India #Shorts #simplilearn",
+        "description": "In this video on How Much A Python Developer Earn ?, we'll dive into the world of Python development and explore the earning ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/o4F3G5g5H-Y/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/o4F3G5g5H-Y/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/o4F3G5g5H-Y/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Simplilearn",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-06-04T14:05:38Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "x1JTOwFPJ_FmEGYrZGZjZbBXFyM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "VU03kLvDTJ8"
+      },
+      "snippet": {
+        "publishedAt": "2023-01-06T09:41:33Z",
+        "channelId": "UCmw0Hax4Ti3awtQZh7bllpA",
+        "title": "ChatGPT writes Flappy Bird Game in Python #python #shorts #programming #chatgpt",
+        "description": "I made ChatGPT AI to write flappy bird game for me in python language, shorts.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/VU03kLvDTJ8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/VU03kLvDTJ8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/VU03kLvDTJ8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "CODE ME UP",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-01-06T09:41:33Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "DnguVSchvWwlv5h3n8h338yNam0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "GfWRxr1OBm4"
+      },
+      "snippet": {
+        "publishedAt": "2024-12-29T01:57:30Z",
+        "channelId": "UCMUuCs6Y1WzDpAKg_2W-3yA",
+        "title": "Python Basics: The Best Way to Learn Python Programming (2024)",
+        "description": "Python Basics: The Best Way to Learn Python Programming (2024) @monuinstitute Some of you asked me about Python ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/GfWRxr1OBm4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/GfWRxr1OBm4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/GfWRxr1OBm4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Monu institute ",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-12-29T01:57:30Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "HocBU-QAE3mZv4-aiLjXLLsIN6w",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "dZ8VrmzYL2A"
+      },
+      "snippet": {
+        "publishedAt": "2023-07-13T10:43:16Z",
+        "channelId": "UC-oMMgCI8QXoQGcuU0ItEZQ",
+        "title": "Pygame - Display Image in Pygame python || Pygame python tutorial #python #pygame",
+        "description": "Pygame - Display image pygame in python || How to make game using python #shorts #trending #tutorials #python ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/dZ8VrmzYL2A/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/dZ8VrmzYL2A/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/dZ8VrmzYL2A/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Creativewiz",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-07-13T10:43:16Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "koH76xvCg8a8UN7RkS9TaGEn5HQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Tq7XXC_9pCM"
+      },
+      "snippet": {
+        "publishedAt": "2024-08-11T21:18:34Z",
+        "channelId": "UCbpeai-MouL7dAxI767zAyA",
+        "title": "Track Phone Number Location Using Python 🤩 #pythontricks #codingtips #programming #shorts",
+        "description": "Track Phone Number Location Using Python #pythontricks #codingtips #programming #shorts #coding #python #code ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Tq7XXC_9pCM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Tq7XXC_9pCM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Tq7XXC_9pCM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "HiteshOgx",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-08-11T21:18:34Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "a5sv4Yxj1Wf9Ga7XemOwtp9wkWU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "DSshk8M-ZXE"
+      },
+      "snippet": {
+        "publishedAt": "2023-09-21T21:29:31Z",
+        "channelId": "UCluGK4CuIILu_EPGPvI1BVQ",
+        "title": "C++ Vs Python",
+        "description": "In this video, we're going to compare and contrast cpp and python. cpp is a more popular language than python, and has more ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/DSshk8M-ZXE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/DSshk8M-ZXE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/DSshk8M-ZXE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Binary Tech - Software Developer ",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-09-21T21:29:31Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "A4NqcIgG3iAkRAsww_t0PPPC_2Y",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "iqC4wvZnrcQ"
+      },
+      "snippet": {
+        "publishedAt": "2025-08-25T02:42:36Z",
+        "channelId": "UCigb9xf3iekhQiVh5XKW6Ww",
+        "title": "Best AI Tools #shorts #coding #ai #programming #python #tech #computer#hack#hacker#skills #aitools",
+        "description": "Want to start a business with AI but don't know where to begin? Here's your step-by-step AI toolkit to turn your ideas into reality: ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/iqC4wvZnrcQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/iqC4wvZnrcQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/iqC4wvZnrcQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "CodewithPrashant ",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-08-25T02:42:36Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "X_qxS_LEqp2AnBbUURctFxZ9ihk",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "e2cR2DhJqco"
+      },
+      "snippet": {
+        "publishedAt": "2025-03-27T07:25:33Z",
+        "channelId": "UCOgJpLSS48Hzemjv-d-ihYQ",
+        "title": "Python Roadmap for Beginners! 🐍 Learn Python Programming Basic Instructions Step-by-Step&quot; #shorts",
+        "description": "Python Roadmap for Beginners! Learn Python Programming Basic Instructions Step-by-Step\" @MissionAdda4 #codingtutorial ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/e2cR2DhJqco/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/e2cR2DhJqco/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/e2cR2DhJqco/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Mission Adda",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-03-27T07:25:33Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "W1Bugu_p4UXSMl-tYWCqFVs6OjI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "9HCr-Q3zFDg"
+      },
+      "snippet": {
+        "publishedAt": "2022-09-04T17:00:06Z",
+        "channelId": "UCg59KYYcEFamqcNyNEaufzw",
+        "title": "Draw google logo with python turtle | coding status | #shorts #python #coding #programming #google",
+        "description": "shorts #python #google #googlelogo #turtle Draw google logo with python turtle | coding status | #shorts #python #coding ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/9HCr-Q3zFDg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/9HCr-Q3zFDg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/9HCr-Q3zFDg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "ManiWeber Technologies",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-09-04T17:00:06Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "cKvpR7KtnLz5fLBf_OThefbz47E",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "ztPvTPMFPxk"
+      },
+      "snippet": {
+        "publishedAt": "2022-08-02T15:13:03Z",
+        "channelId": "UCs-xb1B6AIQwrptfFy-TRKQ",
+        "title": "How to Reverse a String in One Line in Python #shorts #python #programming #coding",
+        "description": "This video will show you how to reverse a string in one line in Python. #python.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ztPvTPMFPxk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ztPvTPMFPxk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ztPvTPMFPxk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Learn Coding Skills",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-08-02T15:13:03Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "4O8MeQNfyA3fYCaIwv3ud1EPmVo",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "yZhxjkmMOMw"
+      },
+      "snippet": {
+        "publishedAt": "2022-12-02T13:15:02Z",
+        "channelId": "UCREFp3D_n8JfcDonlm7Mpyw",
+        "title": "Most Asked Coding Interview Question (Don&#39;t Skip !!😮) #shorts",
+        "description": "Most Asked Coding Interview Question (Don't Skip !!  ) #shorts Do you want to excel in your coding interview?   Stay connected ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/yZhxjkmMOMw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/yZhxjkmMOMw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/yZhxjkmMOMw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Programiz",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-12-02T13:15:02Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "P4y48lIaF9BDM0fWVF3vewHpv38",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Pc8iacu-uck"
+      },
+      "snippet": {
+        "publishedAt": "2022-11-07T15:00:16Z",
+        "channelId": "UCafFexaRoRylOKdzGBU6Pgg",
+        "title": "DEPOIS DE 3H PROGRAMANDO | #shorts",
+        "description": "CLIQUE AQUI PARA SABER MAIS SOBRE O CURSO COMPLETO PYTHON IMPRESSIONADOR: ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Pc8iacu-uck/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Pc8iacu-uck/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Pc8iacu-uck/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Hashtag Programação",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-11-07T15:00:16Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "tlSqnK_P76E60WtF3GvfxbSMNaA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "80yIVH2aOy0"
+      },
+      "snippet": {
+        "publishedAt": "2025-06-06T00:51:25Z",
+        "channelId": "UCMUuCs6Y1WzDpAKg_2W-3yA",
+        "title": "python programming|python for beginners|python full course",
+        "description": "python programming|python for beginners|python full course @monuinstitute python tutorial, learn python, python basics, ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/80yIVH2aOy0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/80yIVH2aOy0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/80yIVH2aOy0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Monu institute ",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-06-06T00:51:25Z"
+      }
+    }
+  ]
+}

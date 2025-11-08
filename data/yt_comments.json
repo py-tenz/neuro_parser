@@ -1,0 +1,928 @@
+{
+  "kind": "youtube#commentThreadListResponse",
+  "etag": "L6kt-JPzgOyiDL_dIM3ArrzZxxs",
+  "pageInfo": {
+    "totalResults": 27,
+    "resultsPerPage": 100
+  },
+  "items": [
+    {
+      "kind": "youtube#commentThread",
+      "etag": "r0nWPiD7NAlb9CV42mJWazYVrCE",
+      "id": "Ugy1q0t00iRNuWY3Pi54AaABAg",
+      "snippet": {
+        "channelId": "UCMUuCs6Y1WzDpAKg_2W-3yA",
+        "videoId": "80yIVH2aOy0",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "Ry8c9qdVLSBOg6CldXqcGBYdmtI",
+          "id": "Ugy1q0t00iRNuWY3Pi54AaABAg",
+          "snippet": {
+            "channelId": "UCMUuCs6Y1WzDpAKg_2W-3yA",
+            "videoId": "80yIVH2aOy0",
+            "textDisplay": "YAA VRO THE CODE IS FULLY CORRECT I RUN IT AND IT PERFECTLY WORKS👍👍✅✅💯💯.",
+            "textOriginal": "YAA VRO THE CODE IS FULLY CORRECT I RUN IT AND IT PERFECTLY WORKS👍👍✅✅💯💯.",
+            "authorDisplayName": "@SunnyKumar-e7y8c",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_mbdw79JGc5mlEFb4L_fDS_eNfnZ3cB5TODqlDQLt_5YWQ-7_FLklstw7UB2tMe0YfK6w=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@SunnyKumar-e7y8c",
+            "authorChannelId": {
+              "value": "UCrcEaIw_IFFhAo9YafTXYcQ"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 1,
+            "publishedAt": "2025-09-28T08:46:09Z",
+            "updatedAt": "2025-09-28T08:46:09Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "dAneessBmMW2VRj5pl2dVG_cBy4",
+      "id": "UgxAvQqWkNjM-mf1Kcp4AaABAg",
+      "snippet": {
+        "channelId": "UCMUuCs6Y1WzDpAKg_2W-3yA",
+        "videoId": "80yIVH2aOy0",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "GrkZ9UjIOn40XocGTHIempUO8HE",
+          "id": "UgxAvQqWkNjM-mf1Kcp4AaABAg",
+          "snippet": {
+            "channelId": "UCMUuCs6Y1WzDpAKg_2W-3yA",
+            "videoId": "80yIVH2aOy0",
+            "textDisplay": "i tried this but everything is white?",
+            "textOriginal": "i tried this but everything is white?",
+            "authorDisplayName": "@Croncookie",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/W8rgOrZ9jB4qUOhXeeME0Cbxxj2tbLGrceZGfyJUee_C2oGzlEMJokE6XAkjc2QHXXPdvpt7=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@Croncookie",
+            "authorChannelId": {
+              "value": "UCeCX-FJeY1niLJyTvEcTqRg"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-09-16T18:24:54Z",
+            "updatedAt": "2025-09-16T18:24:54Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 1,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "9pDnH1Rqitd28es8i9JzR56TqtQ",
+      "id": "Ugz3RL5fECDObGMQ16V4AaABAg",
+      "snippet": {
+        "channelId": "UCMUuCs6Y1WzDpAKg_2W-3yA",
+        "videoId": "80yIVH2aOy0",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "JqdniuLY336idK1w0ne-cgfFyJY",
+          "id": "Ugz3RL5fECDObGMQ16V4AaABAg",
+          "snippet": {
+            "channelId": "UCMUuCs6Y1WzDpAKg_2W-3yA",
+            "videoId": "80yIVH2aOy0",
+            "textDisplay": "Where do you learn python???",
+            "textOriginal": "Where do you learn python???",
+            "authorDisplayName": "@musical_world169",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/TRVIxBT_5tn48KN0dPDj0pN8dUNyacDCqYC6outXdye42esYcaKB1E37uwrEPKmXTzfwyhsJMJ4=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@musical_world169",
+            "authorChannelId": {
+              "value": "UCTriTKhykKaPxebV8O1DFhw"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 1,
+            "publishedAt": "2025-09-15T11:09:45Z",
+            "updatedAt": "2025-09-15T11:09:45Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "1jxVnU5CWXGiGrB1UouNdWhBVf8",
+      "id": "UgyxP3gO3qaDyeH789F4AaABAg",
+      "snippet": {
+        "channelId": "UCMUuCs6Y1WzDpAKg_2W-3yA",
+        "videoId": "80yIVH2aOy0",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "8zbm54PVT0whcBJagjJADYoP5uU",
+          "id": "UgyxP3gO3qaDyeH789F4AaABAg",
+          "snippet": {
+            "channelId": "UCMUuCs6Y1WzDpAKg_2W-3yA",
+            "videoId": "80yIVH2aOy0",
+            "textDisplay": "Isko display pr run kaise karau aur kon se tools pe ye code writing kru",
+            "textOriginal": "Isko display pr run kaise karau aur kon se tools pe ye code writing kru",
+            "authorDisplayName": "@NITSHHC",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/XhWr4kDRxc6KEo11cit3wCgpV1NeFVgY6Q3FLlzGmNhG3LK5q3g9BVmTmrE3zprydwKkGsipRQU=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@NITSHHC",
+            "authorChannelId": {
+              "value": "UCtyyCc6Boror9NWS2EUdGGQ"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-09-12T12:33:20Z",
+            "updatedAt": "2025-09-12T12:33:20Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 1,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "eBMjaNrdUog4-jwR4mS30NOoE5A",
+      "id": "UgykTZT81Ge8s2YNLxd4AaABAg",
+      "snippet": {
+        "channelId": "UCMUuCs6Y1WzDpAKg_2W-3yA",
+        "videoId": "80yIVH2aOy0",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "6LSeTc9caLjzT9q3kZDS4a-xF-w",
+          "id": "UgykTZT81Ge8s2YNLxd4AaABAg",
+          "snippet": {
+            "channelId": "UCMUuCs6Y1WzDpAKg_2W-3yA",
+            "videoId": "80yIVH2aOy0",
+            "textDisplay": "My program is not starting can you tell how to start",
+            "textOriginal": "My program is not starting can you tell how to start",
+            "authorDisplayName": "@vinodverma2808",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_kf6IpthQM5VwxZhFq7w7NqRid5ajP7ipaRe1W_5l-1FhE=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@vinodverma2808",
+            "authorChannelId": {
+              "value": "UCB6F_uWHUn8F6AMeu0AgG6g"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-09-10T09:39:29Z",
+            "updatedAt": "2025-09-10T09:39:29Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 1,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "njshsrQlyFD2JArB-G08g4fICys",
+      "id": "UgwqOq-W16HYW-TALLp4AaABAg",
+      "snippet": {
+        "channelId": "UCMUuCs6Y1WzDpAKg_2W-3yA",
+        "videoId": "80yIVH2aOy0",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "1qGjLLJ4YuTRjPkZAU8NVY2SuVI",
+          "id": "UgwqOq-W16HYW-TALLp4AaABAg",
+          "snippet": {
+            "channelId": "UCMUuCs6Y1WzDpAKg_2W-3yA",
+            "videoId": "80yIVH2aOy0",
+            "textDisplay": "https://youtube.com/shorts/80yIVH2aOy0?lc=UgwjYuLTyHKJuS7hA9p4AaABAg&si=JycX-85p3P_r0aqU",
+            "textOriginal": "https://youtube.com/shorts/80yIVH2aOy0?lc=UgwjYuLTyHKJuS7hA9p4AaABAg&si=JycX-85p3P_r0aqU",
+            "authorDisplayName": "@hassanawan1826",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_lRRQRkPVLuVEqBQqbicEvGkuN3AqlsqCu1Ty4UJi0BtFrrVMBaDYNSNUGINQ8sYTXcMQ=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@hassanawan1826",
+            "authorChannelId": {
+              "value": "UCAJnfUmyZnY1NgvGJtsF5-A"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-09-03T17:52:36Z",
+            "updatedAt": "2025-09-03T17:52:36Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "4svJ3iQZS7qLzug_Vbu-buLRhQU",
+      "id": "UgzrJ2fxPWQO_EDJJ9x4AaABAg",
+      "snippet": {
+        "channelId": "UCMUuCs6Y1WzDpAKg_2W-3yA",
+        "videoId": "80yIVH2aOy0",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "Juif5fj47_HrNwuWonlvcc6OE2E",
+          "id": "UgzrJ2fxPWQO_EDJJ9x4AaABAg",
+          "snippet": {
+            "channelId": "UCMUuCs6Y1WzDpAKg_2W-3yA",
+            "videoId": "80yIVH2aOy0",
+            "textDisplay": "Import the speed ❤",
+            "textOriginal": "Import the speed ❤",
+            "authorDisplayName": "@AmritKathaGyaan",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/s2Oq03NksKhwma1oXmRD6ZTMhrjqva0pWP5NlsjSiveNDISAwqOMNSyC2KW3N0zsOA59U1f0Qzs=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@AmritKathaGyaan",
+            "authorChannelId": {
+              "value": "UCs_a5L_8DYW3Iw8Z5RrKpeQ"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 3,
+            "publishedAt": "2025-09-03T01:15:11Z",
+            "updatedAt": "2025-09-03T01:15:11Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "wxKXyd0MzqN3tipMlsUMjnWWRIM",
+      "id": "Ugzq7LhS8qYBKU6VGr54AaABAg",
+      "snippet": {
+        "channelId": "UCMUuCs6Y1WzDpAKg_2W-3yA",
+        "videoId": "80yIVH2aOy0",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "LHputhh1FBsseuHssyG6tj-H8II",
+          "id": "Ugzq7LhS8qYBKU6VGr54AaABAg",
+          "snippet": {
+            "channelId": "UCMUuCs6Y1WzDpAKg_2W-3yA",
+            "videoId": "80yIVH2aOy0",
+            "textDisplay": "Python ka course sikhna hai muja kasa shiku",
+            "textOriginal": "Python ka course sikhna hai muja kasa shiku",
+            "authorDisplayName": "@AhanaMazumder",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_l5LLkTg-D-orAjIv3QnONs9TM45y_AotBXm2mRPRn4eltxYktPs1EaE6EeEfGMXSfLHQ=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@AhanaMazumder",
+            "authorChannelId": {
+              "value": "UCDlnRwHYbr5nMtUJHpJWTbA"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-08-30T17:16:20Z",
+            "updatedAt": "2025-08-30T17:16:20Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 1,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "otCoOUhY72CKFG33vNTfftKVgjs",
+      "id": "UgxC35F02on9vllr4cB4AaABAg",
+      "snippet": {
+        "channelId": "UCMUuCs6Y1WzDpAKg_2W-3yA",
+        "videoId": "80yIVH2aOy0",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "C9eDAJpN4NICxJCyV09J7QS7x6w",
+          "id": "UgxC35F02on9vllr4cB4AaABAg",
+          "snippet": {
+            "channelId": "UCMUuCs6Y1WzDpAKg_2W-3yA",
+            "videoId": "80yIVH2aOy0",
+            "textDisplay": "Yeh python ka spelling ka code hai kiya",
+            "textOriginal": "Yeh python ka spelling ka code hai kiya",
+            "authorDisplayName": "@AhanaMazumder",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_l5LLkTg-D-orAjIv3QnONs9TM45y_AotBXm2mRPRn4eltxYktPs1EaE6EeEfGMXSfLHQ=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@AhanaMazumder",
+            "authorChannelId": {
+              "value": "UCDlnRwHYbr5nMtUJHpJWTbA"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-08-30T17:14:29Z",
+            "updatedAt": "2025-08-30T17:14:29Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "Za2mh1yQlxBYZmQmBqLVIf6-ViY",
+      "id": "UgyBVcQSoHU52C0UH594AaABAg",
+      "snippet": {
+        "channelId": "UCMUuCs6Y1WzDpAKg_2W-3yA",
+        "videoId": "80yIVH2aOy0",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "_0KNNYnn65E4hS41vCZOJHm4BFc",
+          "id": "UgyBVcQSoHU52C0UH594AaABAg",
+          "snippet": {
+            "channelId": "UCMUuCs6Y1WzDpAKg_2W-3yA",
+            "videoId": "80yIVH2aOy0",
+            "textDisplay": "kaha pe run karna hai yeh code",
+            "textOriginal": "kaha pe run karna hai yeh code",
+            "authorDisplayName": "@BaapCompany-h9s",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_nWyPWxkLouOOka6GuHM8izDlE_yXnC5xTup5HP8T7CMeTZxq27qge_MoyYv6lzf2FRtw=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@BaapCompany-h9s",
+            "authorChannelId": {
+              "value": "UCsDVPuVac7pgHUdpwjcCukw"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-08-27T09:25:26Z",
+            "updatedAt": "2025-08-27T09:25:26Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 1,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "oatEyy38Q1JNsT4MSE8fLcPnc_Y",
+      "id": "UgwjYuLTyHKJuS7hA9p4AaABAg",
+      "snippet": {
+        "channelId": "UCMUuCs6Y1WzDpAKg_2W-3yA",
+        "videoId": "80yIVH2aOy0",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "Klex7w3gzBCfRIKUgyHsrz3eSrI",
+          "id": "UgwjYuLTyHKJuS7hA9p4AaABAg",
+          "snippet": {
+            "channelId": "UCMUuCs6Y1WzDpAKg_2W-3yA",
+            "videoId": "80yIVH2aOy0",
+            "textDisplay": "from turtle import *\n\nspeed(0)\nbgcolor(\"black\")\ncolors = [\"orange\", \"white\"]\nhideturtle()\nfor i in range(122):\n  goto(0,0)\n  color(colors[i%2])\n  forward(130)\n  left(3)\n  circle(40)\n  forward(130)\n  right(180)\n\ndone()",
+            "textOriginal": "from turtle import *\n\nspeed(0)\nbgcolor(\"black\")\ncolors = [\"orange\", \"white\"]\nhideturtle()\nfor i in range(122):\n  goto(0,0)\n  color(colors[i%2])\n  forward(130)\n  left(3)\n  circle(40)\n  forward(130)\n  right(180)\n\ndone()",
+            "authorDisplayName": "@nikomihoo3372",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_lXl0BvtGtUhyHNiL-p4vSLAEt2VgDANUZgCP4SDMLtZ40=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@nikomihoo3372",
+            "authorChannelId": {
+              "value": "UCYG_1h8iH6sfqWm28AN9pNg"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 39,
+            "publishedAt": "2025-08-25T04:14:35Z",
+            "updatedAt": "2025-08-25T04:14:35Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 7,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "cIIjMqNZq-hbHUt0Pdyh9d3SWPc",
+      "id": "UgxQjMMVvTnapPcpM1x4AaABAg",
+      "snippet": {
+        "channelId": "UCMUuCs6Y1WzDpAKg_2W-3yA",
+        "videoId": "80yIVH2aOy0",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "lBuq5GpMZx9rT6K4myIvL-v_ZVI",
+          "id": "UgxQjMMVvTnapPcpM1x4AaABAg",
+          "snippet": {
+            "channelId": "UCMUuCs6Y1WzDpAKg_2W-3yA",
+            "videoId": "80yIVH2aOy0",
+            "textDisplay": "Not working",
+            "textOriginal": "Not working",
+            "authorDisplayName": "@ranjeetmandal4650",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_n24DpTvlV1j2iMvgnhEk9FmQhn7fuk0FWACz1nsotmkA=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@ranjeetmandal4650",
+            "authorChannelId": {
+              "value": "UCEsykx6pvkOvQfcaq67HG3w"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 2,
+            "publishedAt": "2025-08-24T13:56:17Z",
+            "updatedAt": "2025-08-24T13:56:17Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "1XvzPvD0FhvFNnWMAskn4rqEgE8",
+      "id": "Ugy0CpL_s_CC1h2HxGZ4AaABAg",
+      "snippet": {
+        "channelId": "UCMUuCs6Y1WzDpAKg_2W-3yA",
+        "videoId": "80yIVH2aOy0",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "TfVelY5QcHPndnb7f72AzVcKTNo",
+          "id": "Ugy0CpL_s_CC1h2HxGZ4AaABAg",
+          "snippet": {
+            "channelId": "UCMUuCs6Y1WzDpAKg_2W-3yA",
+            "videoId": "80yIVH2aOy0",
+            "textDisplay": "Pls drop code",
+            "textOriginal": "Pls drop code",
+            "authorDisplayName": "@REDDEDX",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_nG4SbiRinF1vfW-o9Rnw5llJVk7TkcI6fsy_QOXjoibee1KSsh76gul9To0U7W2NWuBQ=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@REDDEDX",
+            "authorChannelId": {
+              "value": "UCJJTbPzK9gYGu-OOKKLvUDw"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-08-21T07:05:31Z",
+            "updatedAt": "2025-08-21T07:05:31Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 1,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "U3o7O0N-gjNlxvV3WazrwwfLs8A",
+      "id": "UgxQEd71Fga0Gxcnfb54AaABAg",
+      "snippet": {
+        "channelId": "UCMUuCs6Y1WzDpAKg_2W-3yA",
+        "videoId": "80yIVH2aOy0",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "vPlUtlbOcypzw7wfq8UgYhazS-4",
+          "id": "UgxQEd71Fga0Gxcnfb54AaABAg",
+          "snippet": {
+            "channelId": "UCMUuCs6Y1WzDpAKg_2W-3yA",
+            "videoId": "80yIVH2aOy0",
+            "textDisplay": "What kind of python are you using? Ours don’t look similar at all.",
+            "textOriginal": "What kind of python are you using? Ours don’t look similar at all.",
+            "authorDisplayName": "@0xMrix0",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/Wt3ie0JMGSmFYjcqvCgQ6YQ7GAWQLoKcPAVN4hXedEWDJ8X4wXWNOoRzuL6cuq0o98qIJxP6MQ=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@0xMrix0",
+            "authorChannelId": {
+              "value": "UCA6JF2WSlwrlAe9sP1bG8gw"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 1,
+            "publishedAt": "2025-08-15T04:53:24Z",
+            "updatedAt": "2025-08-15T04:53:24Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "IRQA8HqKS-Qwf3Ud5UpWLNCQHLY",
+      "id": "UgxuC6ycDNGIvjEcMHp4AaABAg",
+      "snippet": {
+        "channelId": "UCMUuCs6Y1WzDpAKg_2W-3yA",
+        "videoId": "80yIVH2aOy0",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "CsuwE-w3s1Mp3HO5iUeOH2tH2qU",
+          "id": "UgxuC6ycDNGIvjEcMHp4AaABAg",
+          "snippet": {
+            "channelId": "UCMUuCs6Y1WzDpAKg_2W-3yA",
+            "videoId": "80yIVH2aOy0",
+            "textDisplay": "Direct link kyu nhi di 😡",
+            "textOriginal": "Direct link kyu nhi di 😡",
+            "authorDisplayName": "@Adiiii_002",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/0oD3j9O8az7VpD401e9UknUxdFdBTZa_TFvsaKn2Jv2g3mXqAWFsw26OUZ5ZW6PY2l1vwSQukg=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@Adiiii_002",
+            "authorChannelId": {
+              "value": "UCeyfPGANSeRpTz71MC2BFsQ"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 1,
+            "publishedAt": "2025-08-14T03:40:13Z",
+            "updatedAt": "2025-08-14T03:40:13Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "GISBn1_DYBdYF37UtkMCgQwEWlg",
+      "id": "UgwYrDw6Kf6guc78nBR4AaABAg",
+      "snippet": {
+        "channelId": "UCMUuCs6Y1WzDpAKg_2W-3yA",
+        "videoId": "80yIVH2aOy0",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "3c2Rn-FZ7Fk0-CszIrq-0JEa-Qo",
+          "id": "UgwYrDw6Kf6guc78nBR4AaABAg",
+          "snippet": {
+            "channelId": "UCMUuCs6Y1WzDpAKg_2W-3yA",
+            "videoId": "80yIVH2aOy0",
+            "textDisplay": "Nahi bye i thog kaise",
+            "textOriginal": "Nahi bye i thog kaise",
+            "authorDisplayName": "@P.Kvlogerstamil-m7z",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/4N046ssSJwSPPPRwGWLhLBu4hCSE5jaL6NjqzaGETlA6vMiLwn21ssE1tCsMJKMcg3eQBsCeKg=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@P.Kvlogerstamil-m7z",
+            "authorChannelId": {
+              "value": "UCQA86oZ8yAXQaB_ACOqCs4w"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-08-14T03:01:21Z",
+            "updatedAt": "2025-08-14T03:01:21Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "1sv_rgzS5X7qws6JL7j8CRcChY4",
+      "id": "UgzzMCqnqmJxjpJoGh54AaABAg",
+      "snippet": {
+        "channelId": "UCMUuCs6Y1WzDpAKg_2W-3yA",
+        "videoId": "80yIVH2aOy0",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "0_eFE4rSOUUHAESglHlGxuGx0Jg",
+          "id": "UgzzMCqnqmJxjpJoGh54AaABAg",
+          "snippet": {
+            "channelId": "UCMUuCs6Y1WzDpAKg_2W-3yA",
+            "videoId": "80yIVH2aOy0",
+            "textDisplay": "Hoe",
+            "textOriginal": "Hoe",
+            "authorDisplayName": "@Lahir-ym5gf",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_n1hHNFfhXBR4BASbMAHa8CRJOT-_7vV_OG-i3RKWwWIZ-j-3B7Fl4iapOfpamSrb2qYA=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@Lahir-ym5gf",
+            "authorChannelId": {
+              "value": "UCwWjy6sp7P3pGKednJ7EEzQ"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 0,
+            "publishedAt": "2025-08-07T07:52:38Z",
+            "updatedAt": "2025-08-07T07:52:38Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "s5XhJbjkcoyEc_nVFZQeq5mD2JM",
+      "id": "UgyTbDrjrIH1K196DuV4AaABAg",
+      "snippet": {
+        "channelId": "UCMUuCs6Y1WzDpAKg_2W-3yA",
+        "videoId": "80yIVH2aOy0",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "jsUtSVVONYBj-QtZFTT21XAfEVE",
+          "id": "UgyTbDrjrIH1K196DuV4AaABAg",
+          "snippet": {
+            "channelId": "UCMUuCs6Y1WzDpAKg_2W-3yA",
+            "videoId": "80yIVH2aOy0",
+            "textDisplay": "ho gaya bhaiya thank you so much",
+            "textOriginal": "ho gaya bhaiya thank you so much",
+            "authorDisplayName": "@VihaanKumar-b2e",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/F1SxWCN-5KRJF-FymMCKF7lkU6EXPy2pYKJCG_mKEhSoDVN79TnXAPzgSUbeK8t63Wxhok0F=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@VihaanKumar-b2e",
+            "authorChannelId": {
+              "value": "UC_j7HWgoLRJKeIfujde0BLQ"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 14,
+            "publishedAt": "2025-07-31T18:56:01Z",
+            "updatedAt": "2025-07-31T18:56:01Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 4,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "laAuka956ljkiIHEQ3IIKmKoo_c",
+      "id": "UgxWv8HviU44Yw0vJ814AaABAg",
+      "snippet": {
+        "channelId": "UCMUuCs6Y1WzDpAKg_2W-3yA",
+        "videoId": "80yIVH2aOy0",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "WmNLG9CqhImzfInoXprDWVip6ZQ",
+          "id": "UgxWv8HviU44Yw0vJ814AaABAg",
+          "snippet": {
+            "channelId": "UCMUuCs6Y1WzDpAKg_2W-3yA",
+            "videoId": "80yIVH2aOy0",
+            "textDisplay": "Run hogeya🎉....",
+            "textOriginal": "Run hogeya🎉....",
+            "authorDisplayName": "@udayshankarpal.7443",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_mepZNFg0IkDgvVhDWwJ-etfN9-p-jFIuO69t8K727MQtN4q3ixeitoQ27z3kNlE3ybXw=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@udayshankarpal.7443",
+            "authorChannelId": {
+              "value": "UC6h15LZBwEf2Zbkh3Ua1nZA"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 8,
+            "publishedAt": "2025-07-18T16:43:28Z",
+            "updatedAt": "2025-07-18T16:43:40Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 1,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "42ttcTRI_AOt7s4_m--xXeJysZc",
+      "id": "UgxnOvZ6zCRFHc2bAW14AaABAg",
+      "snippet": {
+        "channelId": "UCMUuCs6Y1WzDpAKg_2W-3yA",
+        "videoId": "80yIVH2aOy0",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "-90vweoPBc3yKJ-iLwc2XYEsZjs",
+          "id": "UgxnOvZ6zCRFHc2bAW14AaABAg",
+          "snippet": {
+            "channelId": "UCMUuCs6Y1WzDpAKg_2W-3yA",
+            "videoId": "80yIVH2aOy0",
+            "textDisplay": "E code visual studio code me run karega ?",
+            "textOriginal": "E code visual studio code me run karega ?",
+            "authorDisplayName": "@udayshankarpal.7443",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_mepZNFg0IkDgvVhDWwJ-etfN9-p-jFIuO69t8K727MQtN4q3ixeitoQ27z3kNlE3ybXw=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@udayshankarpal.7443",
+            "authorChannelId": {
+              "value": "UC6h15LZBwEf2Zbkh3Ua1nZA"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 2,
+            "publishedAt": "2025-07-18T16:40:35Z",
+            "updatedAt": "2025-07-18T16:40:35Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 1,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "vjNoRsbGTRRFelhdcP1BwLRGB9k",
+      "id": "UgwMENJ1e5_dmOo7JRd4AaABAg",
+      "snippet": {
+        "channelId": "UCMUuCs6Y1WzDpAKg_2W-3yA",
+        "videoId": "80yIVH2aOy0",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "vyuWn_tZZRWtzv7o2zZjocIttS4",
+          "id": "UgwMENJ1e5_dmOo7JRd4AaABAg",
+          "snippet": {
+            "channelId": "UCMUuCs6Y1WzDpAKg_2W-3yA",
+            "videoId": "80yIVH2aOy0",
+            "textDisplay": "What is doing after done plzz tell me",
+            "textOriginal": "What is doing after done plzz tell me",
+            "authorDisplayName": "@NishaManishchaudhary",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_n1guDiz8iQIUgFGnmh5VA5PJlNSiWQwX3Ik0ywlPv8JUDRXZiF6wxDvbC7F3YSi1BdlA=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@NishaManishchaudhary",
+            "authorChannelId": {
+              "value": "UCec9-oNh8AZLnjHLQ9y_SaQ"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 2,
+            "publishedAt": "2025-06-30T17:06:06Z",
+            "updatedAt": "2025-06-30T17:06:06Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 1,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "4Okt5TL9V8fM4Q5MM4MxtfG1kkM",
+      "id": "UgwyDpJvTMI28xoR5L54AaABAg",
+      "snippet": {
+        "channelId": "UCMUuCs6Y1WzDpAKg_2W-3yA",
+        "videoId": "80yIVH2aOy0",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "Welv6Lus2sH8WFeLV-WqhVy3h3o",
+          "id": "UgwyDpJvTMI28xoR5L54AaABAg",
+          "snippet": {
+            "channelId": "UCMUuCs6Y1WzDpAKg_2W-3yA",
+            "videoId": "80yIVH2aOy0",
+            "textDisplay": "Ye program ka nam kya hai",
+            "textOriginal": "Ye program ka nam kya hai",
+            "authorDisplayName": "@RaushanKumar-2004",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/LaRhgmQwbhOtm-7VeK3m6_7Uh_rMu5swSc_A17gla27SAFOAlm2qA3OkqKI56I90j0jZTIjX=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@RaushanKumar-2004",
+            "authorChannelId": {
+              "value": "UC4bp7bacaZzbuL9wYrwMQ8w"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 2,
+            "publishedAt": "2025-06-25T15:38:07Z",
+            "updatedAt": "2025-06-25T15:38:07Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 3,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "p2joQENxkpnbmc_AfOhUmE-Bs2A",
+      "id": "UgxBtS8Yx31Nx__nwLZ4AaABAg",
+      "snippet": {
+        "channelId": "UCMUuCs6Y1WzDpAKg_2W-3yA",
+        "videoId": "80yIVH2aOy0",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "dsXaF_i5yGBZs5H_h1TyCGvK7-w",
+          "id": "UgxBtS8Yx31Nx__nwLZ4AaABAg",
+          "snippet": {
+            "channelId": "UCMUuCs6Y1WzDpAKg_2W-3yA",
+            "videoId": "80yIVH2aOy0",
+            "textDisplay": "What is that app dro",
+            "textOriginal": "What is that app dro",
+            "authorDisplayName": "@ramanaramana-rl6cm",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/WUtK710enyxh168KSCF17n0-L0Uf03dTtzKVk5Fw_N51tMXdXfvy8Zyl3l1MRJeyn-y9UVjZ0_U=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@ramanaramana-rl6cm",
+            "authorChannelId": {
+              "value": "UCjhXoREwYgdR9RCaJm8tAZw"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 2,
+            "publishedAt": "2025-06-25T01:22:08Z",
+            "updatedAt": "2025-06-25T01:22:08Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 1,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "dwB57bP1V3A3sDUkrB92x55LsxQ",
+      "id": "Ugybdkki4FyLhlocoWF4AaABAg",
+      "snippet": {
+        "channelId": "UCMUuCs6Y1WzDpAKg_2W-3yA",
+        "videoId": "80yIVH2aOy0",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "wby9A5gyPZnF3UDtgTilc9E6LwM",
+          "id": "Ugybdkki4FyLhlocoWF4AaABAg",
+          "snippet": {
+            "channelId": "UCMUuCs6Y1WzDpAKg_2W-3yA",
+            "videoId": "80yIVH2aOy0",
+            "textDisplay": "भाई हमे भी सीखना है सिखा सकते। हो प्लीज",
+            "textOriginal": "भाई हमे भी सीखना है सिखा सकते। हो प्लीज",
+            "authorDisplayName": "@Gautamatul1",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/gGWfkY_FGWLJ0UvILKAU24cQZgpEmYHbu34zdVDnYDObfNjrCq_Bruf-EPriNdvEpmN-bo0HuQ=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@Gautamatul1",
+            "authorChannelId": {
+              "value": "UCjVdglU6Ty6focT6Y4_yGrg"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 4,
+            "publishedAt": "2025-06-20T10:26:51Z",
+            "updatedAt": "2025-06-20T10:26:51Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 2,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "jjPT1G9H28GPqboGzJ7cOWG5cWU",
+      "id": "UgyZWvjT5cbrxRUEDEh4AaABAg",
+      "snippet": {
+        "channelId": "UCMUuCs6Y1WzDpAKg_2W-3yA",
+        "videoId": "80yIVH2aOy0",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "-Iy_kC5APxVkNerhMtF0Ke4Nyew",
+          "id": "UgyZWvjT5cbrxRUEDEh4AaABAg",
+          "snippet": {
+            "channelId": "UCMUuCs6Y1WzDpAKg_2W-3yA",
+            "videoId": "80yIVH2aOy0",
+            "textDisplay": "what applicattion  are u using to code the python code",
+            "textOriginal": "what applicattion  are u using to code the python code",
+            "authorDisplayName": "@Analysis_code",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/T7SFTCHL4X3LwbthUGBs8EAweWzusnZKooAsh2Tl8nUWeyEZxHPSZFx3o82mNwQjsHMpL9qx9w=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@Analysis_code",
+            "authorChannelId": {
+              "value": "UCmNzSJEy0vdfyJnmmDKW06Q"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 8,
+            "publishedAt": "2025-06-19T13:45:56Z",
+            "updatedAt": "2025-06-19T13:45:56Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 3,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "xZsTJLTofof8m9H7AeF2KNRbsRY",
+      "id": "Ugw4XBYDLrRAsQp3XD94AaABAg",
+      "snippet": {
+        "channelId": "UCMUuCs6Y1WzDpAKg_2W-3yA",
+        "videoId": "80yIVH2aOy0",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "BIC8hadkXMHihOkc3IRp1DDyed8",
+          "id": "Ugw4XBYDLrRAsQp3XD94AaABAg",
+          "snippet": {
+            "channelId": "UCMUuCs6Y1WzDpAKg_2W-3yA",
+            "videoId": "80yIVH2aOy0",
+            "textDisplay": "Thanks!",
+            "textOriginal": "Thanks!",
+            "authorDisplayName": "@GamesBrax",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/tNVafO2_oErsNEvj5GGjkEF0Ld9xohIgqc40-LuRCOd-c5wIfoUP07x3LajH_0BoS2one-evfA=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@GamesBrax",
+            "authorChannelId": {
+              "value": "UCfAMc8xwmHTlOetdTonxj_g"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 7,
+            "publishedAt": "2025-06-10T09:32:33Z",
+            "updatedAt": "2025-06-10T09:32:33Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "_slcZdd0r3btObDNtUdXMAqhNRc",
+      "id": "Ugxi5W1hzv0VZHmZX_N4AaABAg",
+      "snippet": {
+        "channelId": "UCMUuCs6Y1WzDpAKg_2W-3yA",
+        "videoId": "80yIVH2aOy0",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "aFKAExmcXZhJGTjnk2utUNqWGAU",
+          "id": "Ugxi5W1hzv0VZHmZX_N4AaABAg",
+          "snippet": {
+            "channelId": "UCMUuCs6Y1WzDpAKg_2W-3yA",
+            "videoId": "80yIVH2aOy0",
+            "textDisplay": "Aap  cord kha se sikhe",
+            "textOriginal": "Aap  cord kha se sikhe",
+            "authorDisplayName": "@rajlakshmimaurya1004",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AIdro_nLEDpCwFVvC93TVVtM9rsD81x-NOLhbtg0fAGKK0ult_Y=s48-c-k-c0x00ffffff-no-rj",
+            "authorChannelUrl": "http://www.youtube.com/@rajlakshmimaurya1004",
+            "authorChannelId": {
+              "value": "UCGuxseBaUHwP22bAZ_i3caw"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 3,
+            "publishedAt": "2025-06-06T07:49:10Z",
+            "updatedAt": "2025-06-06T07:49:10Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    }
+  ]
+}
