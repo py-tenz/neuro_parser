@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% block title %}WB Analytics{% endblock %}</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  {% block extra_head %}{% endblock %}
+</head>
+<body>
+
+<header class="wb-header">
+  <div class="container">
+    <nav class="wb-nav">
+      <a href="{{ url_for('index') }}" class="wb-logo">
+        <span class="logo-wb">WB</span>
+        <span class="logo-sep"></span>
+        <span class="logo-text">Analytics</span>
+      </a>
+      <div class="nav-links">
+        <a href="{{ url_for('index') }}" class="nav-link">Новый анализ</a>
+        {% if session.get('results') %}
+        <a href="{{ url_for('results') }}" class="nav-link">Результаты</a>
+        <a href="{{ url_for('report') }}" class="nav-link nav-link--cta">Отчёт</a>
+        {% endif %}
+      </div>
+    </nav>
+  </div>
+</header>
+
+<main>{% block content %}{% endblock %}</main>
+
+<footer class="wb-footer">
+  <div class="container">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <span class="logo-wb" style="font-size:22px">WB</span>
+        <span class="footer-brand-name">Wildberries Analytics</span>
+      </div>
+      <p class="footer-copy">Платформа анализа тональности комментариев &mdash; {{ now.year if now else '2025' }}</p>
+    </div>
+  </div>
+</footer>
+
+<div id="loading-overlay" class="loading-overlay hidden">
+  <div class="loading-box">
+    <div class="wb-spinner"></div>
+    <p class="loading-title">Анализируем комментарии</p>
+    <p class="loading-sub">Это может занять 1–2 минуты&hellip;</p>
+  </div>
+</div>
+
+<script src="{{ url_for('static', filename='js/app.js') }}"></script>
+{% block extra_scripts %}{% endblock %}
+</body>
+</html>

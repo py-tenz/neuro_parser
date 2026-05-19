@@ -1,0 +1,135 @@
+{% extends "base.html" %}
+{% block title %}WB Analytics — Анализ тональности{% endblock %}
+
+{% block content %}
+<section class="hero">
+  <div class="container">
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="badge-dot"></span>
+        Анализ тональности в реальном времени
+      </div>
+      <h1 class="hero-title">Поймите, что думают<br>ваши покупатели</h1>
+      <p class="hero-subtitle">Автоматически классифицируем комментарии из YouTube и VK по тональности — позитив, негатив, нейтраль</p>
+    </div>
+  </div>
+</section>
+
+<div class="container">
+  <div class="search-card">
+    {% if error %}
+    <div class="alert alert--error">
+      <svg width="20" height="20" fill="none" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/><path d="M12 8v4M12 16h.01" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      {{ error }}
+    </div>
+    {% endif %}
+
+    <form action="{{ url_for('analyze') }}" method="POST" id="analyze-form">
+      <div class="form-section">
+        <label class="form-label">Источник данных</label>
+        <div class="source-toggle">
+          <label class="source-option">
+            <input type="radio" name="source" value="youtube" checked>
+            <span class="source-btn">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M21.8 8s-.2-1.4-.8-2c-.8-.8-1.6-.8-2-.9C16.8 5 12 5 12 5s-4.8 0-7 .1c-.4.1-1.2.1-2 .9-.6.6-.8 2-.8 2S2 9.6 2 11.2v1.5c0 1.6.2 3.2.2 3.2s.2 1.4.8 2c.8.8 1.8.8 2.2.8C6.6 19 12 19 12 19s4.8 0 7-.2c.4-.1 1.2-.1 2-.9.6-.6.8-2 .8-2s.2-1.6.2-3.2v-1.5C22 9.6 21.8 8 21.8 8zM10 15V9l5.2 3L10 15z"/></svg>
+              YouTube
+            </span>
+          </label>
+          <label class="source-option">
+            <input type="radio" name="source" value="vk">
+            <span class="source-btn">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M15.07 2H8.93C3.33 2 2 3.33 2 8.93v6.14C2 20.67 3.33 22 8.93 22h6.14C20.67 22 22 20.67 22 15.07V8.93C22 3.33 20.67 2 15.07 2zm3.08 13.5h-1.6s-.54 0-.86-.53c-.3-.48-1.28-1.6-1.62-2.04-.35-.43-.63-.37-.63-.37s-.39.06-.39.57v1.85s.02.52-.5.52H11.6C10.18 15.5 9 14.36 7.72 12.8 6.48 11.29 5.9 8.5 5.9 8.5s-.07-.5.43-.5h1.62s.44.06.57.47c.37 1.19.98 2.24 1.22 2.24s.3-.11.3-.69V8.79s-.06-1.03-.72-1.13c-.32-.05.22-.72.89-.72h2.38s.6.12.6.88v2.33s0 .25.22.25c.2 0 .56-.43 1.1-1.32.36-.6.63-1.26.63-1.26s.15-.42.6-.42h1.74s.53-.06.44.46c-.17.93-1.84 2.64-1.84 2.64s-.27.36 0 .72c.18.24.78.78 1.19 1.25.75.86 1.3 1.57 1.45 2.07.14.5-.13.52-.13.52z"/></svg>
+              ВКонтакте
+            </span>
+          </label>
+        </div>
+      </div>
+
+      <div class="form-section">
+        <label class="form-label" for="query">
+          <span id="query-label-yt">Хэштеги для поиска (YouTube)</span>
+          <span id="query-label-vk" style="display:none">Домен группы ВКонтакте</span>
+        </label>
+        <input
+          type="text"
+          id="query"
+          name="query"
+          class="form-input"
+          placeholder="#python #programming"
+          autocomplete="off"
+          required
+        >
+        <div class="query-hints" id="hints-yt">
+          <span class="hint-chip" data-val="#wildberries">#wildberries</span>
+          <span class="hint-chip" data-val="#python #programming">#python</span>
+          <span class="hint-chip" data-val="#маркетплейс">#маркетплейс</span>
+          <span class="hint-chip" data-val="#отзывы">#отзывы</span>
+        </div>
+        <div class="query-hints" id="hints-vk" style="display:none">
+          <span class="hint-chip" data-val="wildberries">wildberries</span>
+          <span class="hint-chip" data-val="ozon">ozon</span>
+          <span class="hint-chip" data-val="evakorr">evakorr</span>
+        </div>
+      </div>
+
+      <button type="submit" class="btn-analyze" id="submit-btn">
+        <svg width="20" height="20" fill="none" viewBox="0 0 24 24"><path d="M21 21l-4.35-4.35M17 11A6 6 0 1 1 5 11a6 6 0 0 1 12 0z" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>
+        Запустить анализ
+      </button>
+    </form>
+  </div>
+
+  <div class="features">
+    <div class="feature-card">
+      <div class="feature-icon feature-icon--violet">
+        <svg width="24" height="24" fill="none" viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </div>
+      <h3>Классификатор ML</h3>
+      <p>Многоязычная модель RoBERTa, точно определяет тональность русских и английских текстов без LLM</p>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon feature-icon--magenta">
+        <svg width="24" height="24" fill="none" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/><path d="M12 6v6l4 2" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      </div>
+      <h3>Мгновенный анализ</h3>
+      <p>Парсим YouTube и VK, классифицируем до 100 комментариев за 1–2 минуты</p>
+    </div>
+    <div class="feature-card">
+      <div class="feature-icon feature-icon--green">
+        <svg width="24" height="24" fill="none" viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M14 2v6h6M16 13H8M16 17H8M10 9H8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      </div>
+      <h3>Корпоративный отчёт</h3>
+      <p>Готовый отчёт в стиле Wildberries с графиками, метриками и выводами для руководства</p>
+    </div>
+  </div>
+</div>
+{% endblock %}
+
+{% block extra_scripts %}
+<script>
+  const radios   = document.querySelectorAll('input[name="source"]');
+  const labelYt  = document.getElementById('query-label-yt');
+  const labelVk  = document.getElementById('query-label-vk');
+  const hintsYt  = document.getElementById('hints-yt');
+  const hintsVk  = document.getElementById('hints-vk');
+  const queryInp = document.getElementById('query');
+
+  radios.forEach(r => r.addEventListener('change', () => {
+    const isYt = r.value === 'youtube';
+    labelYt.style.display = isYt ? '' : 'none';
+    labelVk.style.display = isYt ? 'none' : '';
+    hintsYt.style.display  = isYt ? '' : 'none';
+    hintsVk.style.display  = isYt ? 'none' : '';
+    queryInp.placeholder   = isYt ? '#python #programming' : 'wildberries';
+    queryInp.value = '';
+  }));
+
+  document.querySelectorAll('.hint-chip').forEach(chip => {
+    chip.addEventListener('click', () => { queryInp.value = chip.dataset.val; });
+  });
+
+  document.getElementById('analyze-form').addEventListener('submit', () => {
+    document.getElementById('loading-overlay').classList.remove('hidden');
+  });
+</script>
+{% endblock %}

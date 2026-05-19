@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Отчёт WB Analytics</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+  <style>
+    :root {
+      --wb-magenta: #CB11AB;
+      --wb-violet: #7B1FBE;
+      --wb-dark: #1C1C1C;
+      --wb-gray: #6B6B6B;
+      --wb-border: #E8E8E8;
+      --green: #00B341;
+      --red: #FF3C2F;
+      --gradient: linear-gradient(135deg, #CB11AB 0%, #7B1FBE 100%);
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Inter', sans-serif;
+      color: var(--wb-dark);
+      background: #F5F5F5;
+    }
+
+    /* ── Toolbar (screen only) ── */
+    .toolbar {
+      background: var(--wb-dark);
+      padding: 12px 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      border-bottom: 2px solid var(--wb-magenta);
+    }
+    .toolbar-brand { display: flex; align-items: center; gap: 10px; }
+    .logo-wb {
+      font-size: 26px; font-weight: 900; letter-spacing: -1px;
+      background: var(--gradient); -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent; background-clip: text;
+    }
+    .toolbar-title { color: rgba(255,255,255,0.75); font-size: 14px; }
+    .toolbar-actions { display: flex; gap: 10px; }
+    .btn-back {
+      padding: 8px 18px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.2);
+      color: rgba(255,255,255,0.8); background: transparent; cursor: pointer;
+      font-family: inherit; font-size: 14px; text-decoration: none;
+      display: inline-flex; align-items: center; gap: 6px;
+    }
+    .btn-print {
+      padding: 8px 20px; border-radius: 8px; border: none;
+      background: var(--gradient); color: #fff; cursor: pointer;
+      font-family: inherit; font-size: 14px; font-weight: 600;
+      display: inline-flex; align-items: center; gap: 6px;
+    }
+
+    /* ── Page wrapper ── */
+    .report-page {
+      max-width: 900px;
+      margin: 32px auto;
+      background: #fff;
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 8px 40px rgba(0,0,0,0.12);
+    }
+
+    /* ── Header strip ── */
+    .report-header {
+      background: var(--wb-dark);
+      padding: 36px 48px 32px;
+      position: relative;
+      overflow: hidden;
+    }
+    .report-header::after {
+      content: '';
+      position: absolute; bottom: 0; left: 0; right: 0; height: 4px;
+      background: var(--gradient);
+    }
+    .report-header-top {
+      display: flex; justify-content: space-between; align-items: flex-start;
+    }
+    .report-brand { display: flex; align-items: center; gap: 14px; }
+    .report-logo-wb {
+      font-size: 40px; font-weight: 900; letter-spacing: -2px;
+      background: var(--gradient); -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent; background-clip: text;
+      line-height: 1;
+    }
+    .report-logo-right { border-left: 2px solid rgba(255,255,255,0.15); padding-left: 14px; }
+    .report-logo-name { color: #fff; font-size: 18px; font-weight: 700; }
+    .report-logo-sub  { color: rgba(255,255,255,0.5); font-size: 12px; margin-top: 2px; }
+    .report-meta-box { text-align: right; }
+    .report-doc-num  { color: rgba(255,255,255,0.45); font-size: 12px; margin-bottom: 4px; }
+    .report-date     { color: rgba(255,255,255,0.9); font-size: 14px; font-weight: 500; }
+
+    .report-title-block { margin-top: 28px; }
+    .report-type  { color: var(--wb-magenta); font-size: 12px; font-weight: 600; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 8px; }
+    .report-title { color: #fff; font-size: 28px; font-weight: 800; line-height: 1.2; }
+    .report-subtitle { color: rgba(255,255,255,0.6); font-size: 15px; margin-top: 6px; }
+
+    /* ── Section styles ── */
+    .report-body { padding: 40px 48px; }
+
+    .section { margin-bottom: 40px; }
+    .section-title {
+      font-size: 16px; font-weight: 700; color: var(--wb-dark);
+      border-left: 4px solid var(--wb-magenta);
+      padding-left: 12px; margin-bottom: 20px;
+    }
+
+    /* ── Info row ── */
+    .info-grid {
+      display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px;
+    }
+    .info-cell {
+      background: #F9F6FF; border-radius: 10px; padding: 16px 20px;
+      border: 1px solid #EDE8F8;
+    }
+    .info-cell-label { font-size: 11px; font-weight: 600; color: var(--wb-gray); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 6px; }
+    .info-cell-value { font-size: 15px; font-weight: 600; color: var(--wb-dark); }
+
+    /* ── KPI row ── */
+    .kpi-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+    .kpi-box {
+      border-radius: 12px; padding: 24px 20px; text-align: center;
+      border: 1px solid var(--wb-border);
+    }
+    .kpi-box--pos { border-top: 4px solid var(--green); background: #F0FFF6; }
+    .kpi-box--neg { border-top: 4px solid var(--red); background: #FFF5F5; }
+    .kpi-box--neu { border-top: 4px solid var(--wb-violet); background: #F9F6FF; }
+    .kpi-pct { font-size: 40px; font-weight: 900; line-height: 1; }
+    .kpi-pct--pos { color: var(--green); }
+    .kpi-pct--neg { color: var(--red); }
+    .kpi-pct--neu { color: var(--wb-violet); }
+    .kpi-name { font-size: 13px; font-weight: 600; color: var(--wb-gray); margin-top: 8px; }
+    .kpi-count { font-size: 12px; color: #aaa; margin-top: 4px; }
+
+    /* ── Charts ── */
+    .charts-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+    .chart-box { border: 1px solid var(--wb-border); border-radius: 12px; padding: 24px; }
+    .chart-box-title { font-size: 13px; font-weight: 600; color: var(--wb-gray); margin-bottom: 16px; text-transform: uppercase; letter-spacing: 0.5px; }
+    .chart-box canvas { max-height: 220px; }
+
+    /* ── Stats table ── */
+    .stats-table { width: 100%; border-collapse: collapse; }
+    .stats-table th {
+      text-align: left; padding: 10px 16px;
+      background: var(--wb-dark); color: #fff;
+      font-size: 12px; font-weight: 600; letter-spacing: 0.5px;
+    }
+    .stats-table th:first-child { border-radius: 8px 0 0 0; }
+    .stats-table th:last-child  { border-radius: 0 8px 0 0; }
+    .stats-table td { padding: 12px 16px; font-size: 14px; border-bottom: 1px solid var(--wb-border); }
+    .stats-table tr:last-child td { border-bottom: none; font-weight: 700; background: #FAFAFA; }
+
+    /* ── Sentiment badge ── */
+    .badge {
+      display: inline-block; padding: 3px 10px; border-radius: 20px;
+      font-size: 12px; font-weight: 600;
+    }
+    .badge--positive { background: #E8F9EE; color: #00773A; }
+    .badge--negative { background: #FFECEC; color: #CC1F1F; }
+    .badge--neutral  { background: #EFE8FF; color: #5B16A0; }
+
+    /* ── Comments sample ── */
+    .comments-sample { border: 1px solid var(--wb-border); border-radius: 12px; overflow: hidden; }
+    .comment-item {
+      display: grid; grid-template-columns: 1fr auto;
+      align-items: start; gap: 16px;
+      padding: 14px 20px; border-bottom: 1px solid var(--wb-border);
+    }
+    .comment-item:last-child { border-bottom: none; }
+    .comment-item:nth-child(even) { background: #FAFAFA; }
+    .comment-txt { font-size: 13px; color: var(--wb-dark); line-height: 1.5; }
+
+    /* ── Conclusion ── */
+    .conclusion-box {
+      background: linear-gradient(135deg, #F9F6FF 0%, #FFF0FC 100%);
+      border: 1px solid #EDE8F8; border-radius: 12px; padding: 28px 32px;
+    }
+    .conclusion-box p { font-size: 14px; line-height: 1.7; color: var(--wb-dark); margin-bottom: 12px; }
+    .conclusion-box p:last-child { margin-bottom: 0; }
+    .conclusion-highlight { font-weight: 700; color: var(--wb-violet); }
+
+    /* ── Footer strip ── */
+    .report-footer {
+      background: var(--wb-dark); padding: 20px 48px;
+      display: flex; justify-content: space-between; align-items: center;
+      border-top: 3px solid var(--wb-magenta);
+    }
+    .footer-left { color: rgba(255,255,255,0.5); font-size: 12px; }
+    .footer-logo-wb {
+      font-size: 20px; font-weight: 900;
+      background: var(--gradient); -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent; background-clip: text;
+    }
+    .footer-right { color: rgba(255,255,255,0.4); font-size: 11px; text-align: right; }
+
+    /* ── Print ── */
+    @media print {
+      body { background: #fff; }
+      .toolbar { display: none !important; }
+      .report-page { margin: 0; border-radius: 0; box-shadow: none; max-width: 100%; }
+      .charts-grid { grid-template-columns: 1fr 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- Screen-only toolbar -->
+<div class="toolbar no-print">
+  <div class="toolbar-brand">
+    <span class="logo-wb">WB</span>
+    <span class="toolbar-title">Корпоративный отчёт</span>
+  </div>
+  <div class="toolbar-actions">
+    <a href="{{ url_for('results') }}" class="btn-back">
+      <svg width="16" height="16" fill="none" viewBox="0 0 24 24"><path d="M19 12H5M12 5l-7 7 7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      Назад
+    </a>
+    <button class="btn-print" onclick="window.print()">
+      <svg width="16" height="16" fill="none" viewBox="0 0 24 24"><path d="M6 9V2h12v7M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2M6 14h12v8H6z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+      Печать / PDF
+    </button>
+  </div>
+</div>
+
+<div class="report-page">
+
+  <!-- ── HEADER ── -->
+  <div class="report-header">
+    <div class="report-header-top">
+      <div class="report-brand">
+        <div class="report-logo-wb">WB</div>
+        <div class="report-logo-right">
+          <div class="report-logo-name">Wildberries</div>
+          <div class="report-logo-sub">Analytics Platform</div>
+        </div>
+      </div>
+      <div class="report-meta-box">
+        <div class="report-doc-num">Документ № WB-{{ data.date | replace(' ', '') | replace(':', '') | replace('.', '') }}-01</div>
+        <div class="report-date">{{ data.date }}</div>
+      </div>
+    </div>
+    <div class="report-title-block">
+      <div class="report-type">Аналитический отчёт</div>
+      <div class="report-title">Анализ тональности<br>пользовательских комментариев</div>
+      <div class="report-subtitle">Источник: {{ data.source }} &nbsp;&bull;&nbsp; Запрос: «{{ data.query }}»</div>
+    </div>
+  </div>
+
+  <!-- ── BODY ── -->
+  <div class="report-body">
+
+    <!-- 1. Общая информация -->
+    <div class="section">
+      <div class="section-title">Общая информация</div>
+      <div class="info-grid">
+        <div class="info-cell">
+          <div class="info-cell-label">Платформа</div>
+          <div class="info-cell-value">{{ data.source }}</div>
+        </div>
+        <div class="info-cell">
+          <div class="info-cell-label">Поисковый запрос</div>
+          <div class="info-cell-value">{{ data.query }}</div>
+        </div>
+        <div class="info-cell">
+          <div class="info-cell-label">Всего комментариев</div>
+          <div class="info-cell-value">{{ data.total }}</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 2. Ключевые метрики -->
+    <div class="section">
+      <div class="section-title">Ключевые показатели</div>
+      <div class="kpi-grid">
+        <div class="kpi-box kpi-box--pos">
+          <div class="kpi-pct kpi-pct--pos">{{ data.positive_pct }}%</div>
+          <div class="kpi-name">Позитивных</div>
+          <div class="kpi-count">{{ data.positive }} комментариев</div>
+        </div>
+        <div class="kpi-box kpi-box--neg">
+          <div class="kpi-pct kpi-pct--neg">{{ data.negative_pct }}%</div>
+          <div class="kpi-name">Негативных</div>
+          <div class="kpi-count">{{ data.negative }} комментариев</div>
+        </div>
+        <div class="kpi-box kpi-box--neu">
+          <div class="kpi-pct kpi-pct--neu">{{ data.neutral_pct }}%</div>
+          <div class="kpi-name">Нейтральных</div>
+          <div class="kpi-count">{{ data.neutral }} комментариев</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 3. Визуализация -->
+    <div class="section">
+      <div class="section-title">Визуализация данных</div>
+      <div class="charts-grid">
+        <div class="chart-box">
+          <div class="chart-box-title">Структура тональности</div>
+          <canvas id="rDonut"></canvas>
+        </div>
+        <div class="chart-box">
+          <div class="chart-box-title">Количество по категориям</div>
+          <canvas id="rBar"></canvas>
+        </div>
+      </div>
+    </div>
+
+    <!-- 4. Детальная статистика -->
+    <div class="section">
+      <div class="section-title">Детальная статистика</div>
+      <table class="stats-table">
+        <thead>
+          <tr>
+            <th>Категория</th>
+            <th>Количество</th>
+            <th>Доля</th>
+            <th>Оценка</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="badge badge--positive">Позитивные</span></td>
+            <td>{{ data.positive }}</td>
+            <td>{{ data.positive_pct }}%</td>
+            <td>
+              {% if data.positive_pct >= 60 %}Высокий уровень
+              {% elif data.positive_pct >= 40 %}Средний уровень
+              {% else %}Низкий уровень{% endif %}
+            </td>
+          </tr>
+          <tr>
+            <td><span class="badge badge--negative">Негативные</span></td>
+            <td>{{ data.negative }}</td>
+            <td>{{ data.negative_pct }}%</td>
+            <td>
+              {% if data.negative_pct >= 40 %}Требует внимания
+              {% elif data.negative_pct >= 20 %}Умеренный уровень
+              {% else %}Приемлемый уровень{% endif %}
+            </td>
+          </tr>
+          <tr>
+            <td><span class="badge badge--neutral">Нейтральные</span></td>
+            <td>{{ data.neutral }}</td>
+            <td>{{ data.neutral_pct }}%</td>
+            <td>Информационный характер</td>
+          </tr>
+          <tr>
+            <td><strong>Итого</strong></td>
+            <td><strong>{{ data.total }}</strong></td>
+            <td><strong>100%</strong></td>
+            <td>
+              {% set sentiment_score = data.positive_pct - data.negative_pct %}
+              <strong>
+                {% if sentiment_score > 20 %}Положительный фон
+                {% elif sentiment_score > 0 %}Умеренно положительный
+                {% elif sentiment_score > -20 %}Смешанный
+                {% else %}Негативный фон{% endif %}
+              </strong>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- 5. Примеры комментариев -->
+    {% if comments %}
+    <div class="section">
+      <div class="section-title">Примеры комментариев</div>
+      <div class="comments-sample">
+        {% for text, sentiment in comments[:15] %}
+        <div class="comment-item">
+          <div class="comment-txt">{{ text[:180] }}{% if text|length > 180 %}&hellip;{% endif %}</div>
+          <span class="badge badge--{{ sentiment }}">
+            {% if sentiment == 'positive' %}Позитив
+            {% elif sentiment == 'negative' %}Негатив
+            {% else %}Нейтраль{% endif %}
+          </span>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+    {% endif %}
+
+    <!-- 6. Выводы и рекомендации -->
+    <div class="section">
+      <div class="section-title">Выводы и рекомендации</div>
+      <div class="conclusion-box">
+        {% set score = data.positive_pct - data.negative_pct %}
+        <p>
+          По результатам анализа <span class="conclusion-highlight">{{ data.total }} комментариев</span>
+          из источника <span class="conclusion-highlight">{{ data.source }}</span> по запросу
+          «<span class="conclusion-highlight">{{ data.query }}</span>» установлено следующее:
+          <span class="conclusion-highlight">{{ data.positive_pct }}%</span> пользователей выразили
+          позитивное отношение, <span class="conclusion-highlight">{{ data.negative_pct }}%</span> —
+          негативное, <span class="conclusion-highlight">{{ data.neutral_pct }}%</span> — нейтральное.
+        </p>
+        {% if score > 20 %}
+        <p>Общий тональный фон <strong>положительный</strong>. Аудитория хорошо воспринимает тематику контента. Рекомендуется масштабировать успешные практики и продолжать взаимодействие с лояльной аудиторией.</p>
+        {% elif score > 0 %}
+        <p>Общий тональный фон <strong>умеренно положительный</strong>. Имеются зоны роста по снижению негатива. Рекомендуется провести анализ причин негативных отзывов и адресно отработать возражения аудитории.</p>
+        {% elif score > -20 %}
+        <p>Тональный фон <strong>смешанный</strong>. Значительная доля негативных и нейтральных комментариев указывает на необходимость работы с контентной стратегией. Рекомендуется пересмотреть подачу материала и усилить коммуникацию с аудиторией.</p>
+        {% else %}
+        <p>Тональный фон <strong>преимущественно негативный</strong>. Требуется срочная корректировка коммуникационной стратегии. Рекомендуется провести углублённый анализ причин недовольства и разработать план реагирования.</p>
+        {% endif %}
+        <p style="margin-top:16px; font-size:12px; color:#999;">
+          Отчёт сформирован автоматически платформой WB Analytics {{ data.date }}.
+          Классификация выполнена моделью cardiffnlp/twitter-xlm-roberta-base-sentiment.
+        </p>
+      </div>
+    </div>
+
+  </div><!-- /report-body -->
+
+  <!-- ── FOOTER ── -->
+  <div class="report-footer">
+    <div class="footer-left">Конфиденциально &mdash; только для внутреннего использования</div>
+    <div class="footer-logo-wb">WB</div>
+    <div class="footer-right">Wildberries Analytics Platform<br>{{ data.date }}</div>
+  </div>
+
+</div><!-- /report-page -->
+
+<script>
+  const pos = {{ data.positive }};
+  const neg = {{ data.negative }};
+  const neu = {{ data.neutral }};
+  const COLORS = { pos: '#00B341', neg: '#FF3C2F', neu: '#7B1FBE' };
+
+  new Chart(document.getElementById('rDonut'), {
+    type: 'doughnut',
+    data: {
+      labels: ['Позитив', 'Негатив', 'Нейтраль'],
+      datasets: [{ data: [pos, neg, neu], backgroundColor: [COLORS.pos, COLORS.neg, COLORS.neu], borderWidth: 2, borderColor: '#fff', hoverOffset: 4 }]
+    },
+    options: { cutout: '65%', plugins: { legend: { position: 'bottom', labels: { padding: 14, font: { size: 12, family: 'Inter' } } } } }
+  });
+
+  new Chart(document.getElementById('rBar'), {
+    type: 'bar',
+    data: {
+      labels: ['Позитив', 'Негатив', 'Нейтраль'],
+      datasets: [{ data: [pos, neg, neu], backgroundColor: [COLORS.pos, COLORS.neg, COLORS.neu], borderRadius: 6, borderSkipped: false }]
+    },
+    options: {
+      indexAxis: 'y',
+      plugins: { legend: { display: false } },
+      scales: { x: { grid: { color: '#f0f0f0' } }, y: { grid: { display: false } } }
+    }
+  });
+</script>
+</body>
+</html>

@@ -1,0 +1,194 @@
+{% extends "base.html" %}
+{% block title %}Результаты анализа — WB Analytics{% endblock %}
+
+{% block extra_head %}
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+{% endblock %}
+
+{% block content %}
+<div class="page-header">
+  <div class="container">
+    <div class="page-header-inner">
+      <div>
+        <div class="page-breadcrumb">
+          <a href="{{ url_for('index') }}">Анализ</a>
+          <span>/</span>
+          <span>Результаты</span>
+        </div>
+        <h1 class="page-title">Результаты анализа</h1>
+        <p class="page-meta">{{ data.source }} &bull; «{{ data.query }}» &bull; {{ data.date }}</p>
+      </div>
+      <a href="{{ url_for('report') }}" class="btn-primary">
+        <svg width="18" height="18" fill="none" viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M14 2v6h6" stroke="currentColor" stroke-width="2"/></svg>
+        Скачать отчёт
+      </a>
+    </div>
+  </div>
+</div>
+
+<div class="container results-container">
+
+  <!-- KPI Cards -->
+  <div class="kpi-row">
+    <div class="kpi-card kpi-card--total">
+      <div class="kpi-icon">
+        <svg width="22" height="22" fill="none" viewBox="0 0 24 24"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+      </div>
+      <div class="kpi-value">{{ data.total }}</div>
+      <div class="kpi-label">Комментариев обработано</div>
+    </div>
+    <div class="kpi-card kpi-card--positive">
+      <div class="kpi-icon">
+        <svg width="22" height="22" fill="none" viewBox="0 0 24 24"><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z" stroke="currentColor" stroke-width="2"/><path d="M8 13s1.5 2 4 2 4-2 4-2M9 9h.01M15 9h.01" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      </div>
+      <div class="kpi-value kpi-value--green">{{ data.positive_pct }}%</div>
+      <div class="kpi-label">Позитивных &mdash; {{ data.positive }}</div>
+    </div>
+    <div class="kpi-card kpi-card--negative">
+      <div class="kpi-icon">
+        <svg width="22" height="22" fill="none" viewBox="0 0 24 24"><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z" stroke="currentColor" stroke-width="2"/><path d="M16 16s-1.5-2-4-2-4 2-4 2M9 9h.01M15 9h.01" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      </div>
+      <div class="kpi-value kpi-value--red">{{ data.negative_pct }}%</div>
+      <div class="kpi-label">Негативных &mdash; {{ data.negative }}</div>
+    </div>
+    <div class="kpi-card kpi-card--neutral">
+      <div class="kpi-icon">
+        <svg width="22" height="22" fill="none" viewBox="0 0 24 24"><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z" stroke="currentColor" stroke-width="2"/><path d="M9 12h6M9 9h.01M15 9h.01" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      </div>
+      <div class="kpi-value kpi-value--violet">{{ data.neutral_pct }}%</div>
+      <div class="kpi-label">Нейтральных &mdash; {{ data.neutral }}</div>
+    </div>
+  </div>
+
+  <!-- Charts Row -->
+  <div class="charts-row">
+    <div class="chart-card">
+      <h2 class="chart-title">Распределение тональности</h2>
+      <div class="chart-wrap chart-wrap--donut">
+        <canvas id="donutChart"></canvas>
+      </div>
+    </div>
+    <div class="chart-card">
+      <h2 class="chart-title">Соотношение по категориям</h2>
+      <div class="chart-wrap">
+        <canvas id="barChart"></canvas>
+      </div>
+      <div class="chart-legend">
+        <span class="legend-item legend-item--green">Позитив</span>
+        <span class="legend-item legend-item--red">Негатив</span>
+        <span class="legend-item legend-item--violet">Нейтраль</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Comments Table -->
+  <div class="table-card">
+    <div class="table-header">
+      <h2 class="chart-title">Комментарии с метками</h2>
+      <div class="table-filters">
+        <button class="filter-btn active" data-filter="all">Все</button>
+        <button class="filter-btn" data-filter="positive">Позитив</button>
+        <button class="filter-btn" data-filter="negative">Негатив</button>
+        <button class="filter-btn" data-filter="neutral">Нейтраль</button>
+      </div>
+    </div>
+    <div class="table-wrap">
+      <table class="comments-table">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Комментарий</th>
+            <th>Тональность</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for text, sentiment in comments %}
+          <tr class="comment-row" data-sentiment="{{ sentiment }}">
+            <td class="row-num">{{ loop.index }}</td>
+            <td class="comment-text">{{ text[:200] }}{% if text|length > 200 %}&hellip;{% endif %}</td>
+            <td>
+              <span class="sentiment-badge sentiment-badge--{{ sentiment }}">
+                {% if sentiment == 'positive' %}Позитив
+                {% elif sentiment == 'negative' %}Негатив
+                {% else %}Нейтраль{% endif %}
+              </span>
+            </td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+</div>
+{% endblock %}
+
+{% block extra_scripts %}
+<script>
+  const pos = {{ data.positive }};
+  const neg = {{ data.negative }};
+  const neu = {{ data.neutral }};
+
+  const COLORS = {
+    positive: '#00B341',
+    negative: '#FF3C2F',
+    neutral:  '#7B1FBE',
+  };
+
+  // Donut
+  new Chart(document.getElementById('donutChart'), {
+    type: 'doughnut',
+    data: {
+      labels: ['Позитив', 'Негатив', 'Нейтраль'],
+      datasets: [{
+        data: [pos, neg, neu],
+        backgroundColor: [COLORS.positive, COLORS.negative, COLORS.neutral],
+        borderWidth: 3,
+        borderColor: '#fff',
+        hoverOffset: 8,
+      }]
+    },
+    options: {
+      cutout: '68%',
+      plugins: {
+        legend: { position: 'bottom', labels: { padding: 20, font: { size: 13, family: 'Inter' } } },
+        tooltip: { callbacks: { label: ctx => ` ${ctx.label}: ${ctx.parsed} (${((ctx.parsed/(pos+neg+neu))*100).toFixed(1)}%)` } }
+      }
+    }
+  });
+
+  // Bar
+  new Chart(document.getElementById('barChart'), {
+    type: 'bar',
+    data: {
+      labels: ['Позитив', 'Негатив', 'Нейтраль'],
+      datasets: [{
+        data: [pos, neg, neu],
+        backgroundColor: [COLORS.positive, COLORS.negative, COLORS.neutral],
+        borderRadius: 8,
+        borderSkipped: false,
+      }]
+    },
+    options: {
+      indexAxis: 'y',
+      plugins: { legend: { display: false } },
+      scales: {
+        x: { grid: { color: '#f0f0f0' }, ticks: { font: { family: 'Inter' } } },
+        y: { grid: { display: false }, ticks: { font: { family: 'Inter', size: 13 } } }
+      }
+    }
+  });
+
+  // Filter
+  document.querySelectorAll('.filter-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      const f = btn.dataset.filter;
+      document.querySelectorAll('.comment-row').forEach(row => {
+        row.style.display = (f === 'all' || row.dataset.sentiment === f) ? '' : 'none';
+      });
+    });
+  });
+</script>
+{% endblock %}
